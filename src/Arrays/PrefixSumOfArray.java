@@ -1,10 +1,12 @@
+package Arrays;
+
 import java.util.Arrays;
 
 public class PrefixSumOfArray {
     public static void main(String [] args)
     {
         int [] arr = {1,2,3,4,5};
-        int n = arr.length;
+//        int n = arr.length;
 
         // Optimised
         for(int i = 1; i< arr.length; i++)

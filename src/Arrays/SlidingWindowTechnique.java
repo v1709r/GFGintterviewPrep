@@ -1,3 +1,5 @@
+package Arrays;
+
 public class SlidingWindowTechnique {
     public static void main(String [] args)
     {
@@ -5,7 +7,7 @@ public class SlidingWindowTechnique {
         // A better approach is to use sliding window approach to solve in Linear amount of time.
         int [] arr = {50, 1, 4, 2, 10, 23, 3, 1, 0, 20, 50, 50};
         int k = 4;
-        int sum = 0, temp = 0;
+        int sum = 0, temp;
         int setPose = 0;
         for(int i = 0; i<k; i++)
         {
